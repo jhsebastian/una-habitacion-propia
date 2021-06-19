@@ -1,5 +1,3 @@
-
-import imageTest from '../assets/test2.jpeg';
 import './Layout.css';
 
 const Layout = () => {
