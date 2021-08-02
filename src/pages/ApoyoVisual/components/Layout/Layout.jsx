@@ -1,21 +1,9 @@
+import Header from '../../../../commons/Header/Header'
 import './Layout.css';
 
 const Layout = () => {
     return (
-        <div className="row">
-            <div className="column">
-
-            </div>
-            <div className="column">
-
-            </div>
-            <div className="column">
-
-            </div>
-            <div className="column">
-
-            </div>
-        </div>
+        <p>Not sure if I'm gonna use this component.</p>
     )
 }
 
