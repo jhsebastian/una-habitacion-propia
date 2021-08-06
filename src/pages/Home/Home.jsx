@@ -4,6 +4,7 @@ import Footer from '../../commons/Footer/Footer';
 import mujer from '../../../src/assets/lotties/47245-mujer-414x493.json';
 import Lottie from 'react-lottie';
 import './Home.css';
+import ModalComponent from './components/modal/ModalComponent';
 
 const defaultOptions = {
     loop: true,
@@ -23,6 +24,7 @@ const Home = () => {
                 <h2>Hola, este sitio web está en construcción</h2>
                 <h3>pronto podrás encontrar el sitio web y disfrutar.</h3>
             </div>
+            <ModalComponent />
             <Footer />
         </div>
     )
