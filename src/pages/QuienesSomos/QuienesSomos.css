@@ -1,0 +1,25 @@
+.quienesSomos-principal-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.image-quienesSomos {
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .quienesSomos-principal-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .image-quienesSomos {
+        width: 250px;
+        height: 250px;
+    }
+}
