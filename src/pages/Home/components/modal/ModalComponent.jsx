@@ -11,7 +11,20 @@ const ModalComponent = ({ iconSelected }) => {
     return(
         <div>
             <button onClick = {() => setModalIsOpen(true)}>Open Modal</button>
-            <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+            <Modal 
+            isOpen={modalIsOpen} 
+            onRequestClose={() => setModalIsOpen(false)}
+            style={
+                {
+                    overlay: {
+                        backgroundColor: 'rgb(240, 203, 243)'
+                    },
+                    content: {
+                        color: 'black'
+                    }
+                }
+            }
+            >
                 <h2>This is the modal title</h2>
                 <p>Omg I'm so happy, I though this gonna be harder</p>
                 <div>
