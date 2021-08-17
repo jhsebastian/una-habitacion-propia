@@ -13,4 +13,7 @@ Link {
     .list-links-navbar {
       margin-left: 10px;
     }
+    .navbar-toggler {
+      margin-right: 10px;
+    }
   }
