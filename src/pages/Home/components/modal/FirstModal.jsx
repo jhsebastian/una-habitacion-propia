@@ -4,9 +4,10 @@ import { useState } from "react";
 
 Modal.setAppElement('#root');
 
-const ModalComponent = ({ iconSelected }) => {
+const FirstModal = () => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
+
 
     return(
         <div>
@@ -20,12 +21,13 @@ const ModalComponent = ({ iconSelected }) => {
                         backgroundColor: 'rgb(240, 203, 243)'
                     },
                     content: {
-                        color: 'black'
+                        color: 'black',
+                        fontFamily: 'edosz'
                     }
                 }
             }
             >
-                <h2>This is the modal title</h2>
+                <h2 className="title-modal" >This is the modal title</h2>
                 <p>Omg I'm so happy, I though this gonna be harder</p>
                 <div>
                     <button onClick= {() => setModalIsOpen(false)}>Close modal</button>
@@ -36,4 +38,4 @@ const ModalComponent = ({ iconSelected }) => {
     )
 };
 
-export default ModalComponent;
+export default FirstModal;

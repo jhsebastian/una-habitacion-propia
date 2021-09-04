@@ -1,4 +1,3 @@
-import homeIcon from '../../assets/home.png';
 import logoUHP from '../../assets/logo-uhp.png';
 import './Header.css';
 import {Link} from 'react-router-dom';
