@@ -6,7 +6,7 @@ function Header() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
             <Link to="/">
-                <a class="navbar-brand" href="#">
+                <a className="navbar-brand" href="#">
                     <img src={logoUHP} width="150" height="80" class="d-inline-block align-top home-icon" alt="" />
                 </a>
             </Link>
