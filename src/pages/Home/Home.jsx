@@ -25,7 +25,34 @@ const Home = () => {
                 <h2>Hola, este sitio web está en construcción</h2>
                 <h3>pronto podrás encontrar el sitio web y disfrutar.</h3>
             </div>
-            <ModalComponent/>
+            <div className="container-modals">
+                <ModalComponent
+                textButton = "Cama"
+                title="Cama Modal"
+                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                />
+                <ModalComponent
+                textButton = "Ventana"
+                title="Ventana Modal"
+                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                />
+                <ModalComponent
+                textButton = "Puerta"
+                title="Puerta Modal"
+                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                />
+                <ModalComponent
+                textButton = "Paredes"
+                title="Paredes Modal"
+                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                />
+                <ModalComponent
+                textButton = "Closet"
+                title="Closet Modal"
+                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                />
+            </div>
+            
             <Footer />
         </div>
     )

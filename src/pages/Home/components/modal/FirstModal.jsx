@@ -4,14 +4,14 @@ import { useState } from "react";
 
 Modal.setAppElement('#root');
 
-const FirstModal = () => {
+const FirstModal = ({ textButton, title, text }) => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
 
     return(
         <div>
-            <button onClick = {() => setModalIsOpen(true)}>Open Modal</button>
+            <button className="button-modal-open" onClick = {() => setModalIsOpen(true)}> { textButton } </button>
             <Modal 
             isOpen={modalIsOpen} 
             onRequestClose={() => setModalIsOpen(false)}
@@ -27,10 +27,10 @@ const FirstModal = () => {
                 }
             }
             >
-                <h2 className="title-modal" >This is the modal title</h2>
-                <p>Omg I'm so happy, I though this gonna be harder</p>
+                <h2 className="title-modal" > { title } </h2>
+                <p className="text-modal"> { text } </p>
                 <div>
-                    <button onClick= {() => setModalIsOpen(false)}>Close modal</button>
+                    <button onClick= {() => setModalIsOpen(false)}>Salir</button>
                 </div>
                 
             </Modal>

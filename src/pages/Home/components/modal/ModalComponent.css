@@ -1,3 +1,24 @@
-.title-modal {
+
+.button-modal-open{
+    height: 40px;
+    width: 100px;
+    background: none;
+    border-radius: 15px;
+    border: solid #983f9e;
     font-family: 'edosz';
 }
+
+.button-modal-open:hover {
+    box-shadow: 0px 0px 10px 4px #983f9e;
+}
+
+.text-modal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+    .button-modal-open {
+        margin-bottom: 10px;
+    }
+  }
+
