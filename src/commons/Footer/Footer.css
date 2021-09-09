@@ -21,3 +21,15 @@
     font-family: 'edosz';
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 991px) {
+    .links-footer {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        width: 100%
+    }
+    .links-footer p {
+        margin: 0%;
+    }
+  }
