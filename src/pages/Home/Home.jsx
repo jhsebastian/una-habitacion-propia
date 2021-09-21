@@ -3,6 +3,12 @@ import Header from '../../commons/Header/Header';
 import Footer from '../../commons/Footer/Footer';
 import mujer from '../../../src/assets/lotties/47245-mujer-414x493.json';
 import Lottie from 'react-lottie';
+import textItems from '../../data';
+import cama from '../../assets/images-banner/cama.jpg';
+import closet from '../../assets/images-banner/closet.jpg';
+import paredes from '../../assets/images-banner/paredes.jpg';
+import puerta from '../../assets/images-banner/puerta.jpg';
+import ventana from '../../assets/images-banner/ventana.jpg';
 
 
 import './Home.css';
@@ -30,28 +36,33 @@ const Home = () => {
             <div className="container-modals">
                 <ModalComponent
                 textButton = "Cama"
-                title="Cama Modal"
-                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                title="Cama"
+                text = {textItems.camas}
+                img = {cama}
                 />
                 <ModalComponent
                 textButton = "Ventana"
-                title="Ventana Modal"
-                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                title="Ventana"
+                text = {textItems.ventanas}
+                img = {ventana}
                 />
                 <ModalComponent
                 textButton = "Puerta"
-                title="Puerta Modal"
-                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                title="Puerta"
+                text = {textItems.puertas}
+                img = {puerta}
                 />
                 <ModalComponent
                 textButton = "Paredes"
-                title="Paredes Modal"
-                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                title="Paredes"
+                text = {textItems.paredes}
+                img = {paredes}
                 />
                 <ModalComponent
                 textButton = "Closet"
-                title="Closet Modal"
-                text = "lorem ipsum sdhfjshdfjhakdfhajhdfisbdfjhsudfbjksdbhfjsbdjfhsdjbfhjs"
+                title="Closet"
+                text = {textItems.closet}
+                img = {closet}
                 />
             </div>
             
