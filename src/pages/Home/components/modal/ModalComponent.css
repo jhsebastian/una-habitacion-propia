@@ -33,6 +33,7 @@
 
 .text-modal {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
 .content-container {
@@ -57,22 +58,20 @@
     }
 
     .content-container {
-        margin-top: 100px;
         display: flex;
         flex-direction: column;
         height: 100%;
         text-align: left;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
     }
 
     .img-modal {
+        margin-top: 20px ;
         width: 150px;
         height: 150px;
         border-radius: 100px;
         margin-bottom: 30px;
         max-width: 150px;
-
     }
 
   }
