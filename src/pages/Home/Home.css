@@ -5,9 +5,11 @@
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
+
+
 
 .temporal-title-home {
     font-family: 'edosz';
