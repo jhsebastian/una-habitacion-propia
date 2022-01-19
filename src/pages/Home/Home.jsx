@@ -18,54 +18,53 @@ const defaultOptions = {
     loop: true,
     autoplay: true,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
+        preserveAspectRatio: 'xMidYMid slice'
     }
 }
 
 const Home = () => {
 
-    return(
+    return (
         <div>
             <Header />
             <h1 className="temporal-title-home">Una Habitación Propia</h1>
             <Banner />
-            <Lottie options={{animationData: mujer, ...defaultOptions}} width={300} height={300} />
             <div className="temporal-container">
-                
+
             </div>
             <div className="container-modals">
                 <ModalComponent
-                textButton = "Cama"
-                title="Cama"
-                text = {textItems.camas}
-                img = {cama}
+                    textButton="Cama"
+                    title="Cama"
+                    text={textItems.camas}
+                    img={cama}
                 />
                 <ModalComponent
-                textButton = "Ventana"
-                title="Ventana"
-                text = {textItems.ventanas}
-                img = {ventana}
+                    textButton="Ventana"
+                    title="Ventana"
+                    text={textItems.ventanas}
+                    img={ventana}
                 />
                 <ModalComponent
-                textButton = "Puerta"
-                title="Puerta"
-                text = {textItems.puertas}
-                img = {puerta}
+                    textButton="Puerta"
+                    title="Puerta"
+                    text={textItems.puertas}
+                    img={puerta}
                 />
                 <ModalComponent
-                textButton = "Paredes"
-                title="Paredes"
-                text = {textItems.paredes}
-                img = {paredes}
+                    textButton="Paredes"
+                    title="Paredes"
+                    text={textItems.paredes}
+                    img={paredes}
                 />
                 <ModalComponent
-                textButton = "Closet"
-                title="Closet"
-                text = {textItems.closet}
-                img = {closet}
+                    textButton="Closet"
+                    title="Closet"
+                    text={textItems.closet}
+                    img={closet}
                 />
             </div>
-            
+
             <Footer />
         </div>
     )
