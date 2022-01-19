@@ -1,8 +1,6 @@
 import Banner from './components/banner/Banner';
 import Header from '../../commons/Header/Header';
 import Footer from '../../commons/Footer/Footer';
-import mujer from '../../../src/assets/lotties/47245-mujer-414x493.json';
-import Lottie from 'react-lottie';
 import textItems from '../../data';
 import cama from '../../assets/images-banner/cama.jpg';
 import closet from '../../assets/images-banner/closet.jpg';
@@ -14,13 +12,6 @@ import ventana from '../../assets/images-banner/ventana.jpg';
 import './Home.css';
 import ModalComponent from './components/modal/FirstModal';
 
-const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice'
-    }
-}
 
 const Home = () => {
 
@@ -29,9 +20,6 @@ const Home = () => {
             <Header />
             <h1 className="temporal-title-home">Una Habitación Propia</h1>
             <Banner />
-            <div className="temporal-container">
-
-            </div>
             <div className="container-modals">
                 <ModalComponent
                     textButton="Cama"

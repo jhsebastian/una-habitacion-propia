@@ -1,5 +1,4 @@
 .temporal-container {
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,6 +11,7 @@ h1 {
 
 .temporal-title-home {
     font-family: 'edosz';
+    margin: 20px 0 20px 0;
 }
 
 .container-modals {
