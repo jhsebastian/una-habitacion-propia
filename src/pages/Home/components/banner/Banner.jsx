@@ -9,23 +9,7 @@ import './Banner.css';
 
 const Banner = () => {
     return(
-        <Carousel>
-                <div>
-                    <img className="banner-image" src={banner1} />
-                </div>
-                <div>
-                    <img className="banner-image" src={banner2} />
-                </div>
-                <div>
-                    <img className="banner-image" src={banner3} />
-                </div>
-                <div>
-                    <img className="banner-image" src={banner4} />
-                </div>
-                <div>
-                    <img className="banner-image" src={banner5} />
-                </div>
-        </Carousel>
+        <h1>No carousel here</h1>
     )
 };
 
