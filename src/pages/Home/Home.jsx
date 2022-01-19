@@ -19,6 +19,7 @@ const Home = () => {
         <div>
             <Header />
             <h1 className="temporal-title-home">Una Habitación Propia</h1>
+            <h2>Just checking something</h2>
             <Banner />
             <div className="container-modals">
                 <ModalComponent
