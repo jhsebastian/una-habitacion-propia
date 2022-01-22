@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Typing loop={true}>
+            <Typing loop={true} speed={60}>
                 <h1 className="temporal-title-home">Una Habitación Propia</h1>
                 <Typing.Backspace count={25} />
             </Typing>
