@@ -19,9 +19,9 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Typing>
+            <Typing loop={true}>
                 <h1 className="temporal-title-home">Una Habitación Propia</h1>
-                <Typing.Backspace count={100} />
+                <Typing.Backspace count={25} />
             </Typing>
             <h2>Just checking something</h2>
             <Banner />
