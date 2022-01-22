@@ -1,16 +1,19 @@
 .quienesSomos-principal-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
+h1, h3 {
     margin-top: 10px;
+    font-family: 'edosz';
 }
 
 .image-quienesSomos {
-    width: 300px;
-    height: 300px;
-    margin: 20px 20px 20px 20px;
+    width: 500px;
+    width: 500px;
+    margin: 20px 0 20px 0;
 }
 
 @media only screen and (max-width: 991px) {
