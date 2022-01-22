@@ -7,6 +7,7 @@ import closet from '../../assets/images-banner/closet.jpg';
 import paredes from '../../assets/images-banner/paredes.jpg';
 import puerta from '../../assets/images-banner/puerta.jpg';
 import ventana from '../../assets/images-banner/ventana.jpg';
+import Typing from 'react-typing-animation';
 
 
 import './Home.css';
@@ -18,7 +19,10 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <h1 className="temporal-title-home">Una Habitación Propia</h1>
+            <Typing>
+                <h1 className="temporal-title-home">Una Habitación Propia</h1>
+                <Typing.Backspace count={100} />
+            </Typing>
             <h2>Just checking something</h2>
             <Banner />
             <div className="container-modals">

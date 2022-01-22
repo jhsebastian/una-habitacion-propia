@@ -16,6 +16,7 @@
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
+    "react-typing-animation": "^1.6.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-runtime": "^6.26.0"
   }
 }
