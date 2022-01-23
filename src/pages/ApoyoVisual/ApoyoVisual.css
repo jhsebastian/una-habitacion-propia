@@ -19,3 +19,11 @@
 iframe {
     margin-bottom: 20px;
 }
+
+.youtube-link,
+.youtube-link:active,
+.youtube-link:hover,
+.youtube-link:visited {
+    color: purple;
+    text-decoration: none;
+}

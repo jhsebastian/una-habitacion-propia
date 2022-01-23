@@ -4,12 +4,13 @@ import "./QuienesSomos.css";
 import equipo1 from "../../assets/quienesSomos/equipo1.png";
 import equipo2 from "../../assets/quienesSomos/equipo2.png";
 import data from "./data-quienesSomos";
+import Title from '../../commons/Title/Title';
 
 const QuienesSomos = () => {
     return (
         <div>
             <Header></Header>
-            <h1>NUESTRO EQUIPO</h1>
+            <Title title="nuestro equipo"></Title>
             <div className="quienesSomos-principal-container">
                 <img className="image-quienesSomos img-fluid" src={equipo1} alt="" />
                 <h3>{data.title}</h3>

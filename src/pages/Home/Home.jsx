@@ -7,9 +7,7 @@ import closet from '../../assets/images-banner/closet.jpg';
 import paredes from '../../assets/images-banner/paredes.jpg';
 import puerta from '../../assets/images-banner/puerta.jpg';
 import ventana from '../../assets/images-banner/ventana.jpg';
-import Typing from 'react-typing-animation';
-
-
+import Title from '../../commons/Title/Title';
 import './Home.css';
 import ModalComponent from './components/modal/FirstModal';
 
@@ -19,10 +17,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Typing loop={true} speed={60}>
-                <h1 className="temporal-title-home">Una Habitación Propia</h1>
-                <Typing.Backspace count={25} />
-            </Typing>
+            <Title title="una habitacion propia"></Title>
             <Banner />
             <div className="container-modals">
                 <ModalComponent
