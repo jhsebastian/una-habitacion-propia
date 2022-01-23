@@ -22,12 +22,7 @@
     color: purple;
 }
 
-.descargables-container img,
-.planos-container img {
-    width: 300px;
-    margin: 0;
-    padding: 0;
-}
+
 
 .descargables-texts,
 .planos-texts{
@@ -38,5 +33,24 @@
     .descargables-container,
     .planos-container {
         flex-direction: column;
+        padding: 15px 0 15px 0;
     }
+
+    .descargables-container {
+        flex-direction: column-reverse;
+    }
+
+    .descargables-container img,
+    .planos-container img {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    }
+
+    .descargables-texts,
+    .planos-texts{
+        width: 90%;
+        padding-top: 10px;
+    }
+
 }
