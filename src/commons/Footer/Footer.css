@@ -17,9 +17,16 @@
     justify-content: space-around;
 }
 
+.links-footer a,
+.links-footer a:visited,
+.links-footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .footer-title {
     font-family: 'edosz';
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 991px) {

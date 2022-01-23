@@ -17,7 +17,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Title title="una habitacion propia"></Title>
+            <Title title="una habitación propia"></Title>
             <Banner />
             <div className="container-modals">
                 <ModalComponent
