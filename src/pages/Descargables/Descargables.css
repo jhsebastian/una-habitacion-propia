@@ -33,3 +33,10 @@
 .planos-texts{
     width: 70%;
 }
+
+@media only screen and (max-width: 991px) {
+    .descargables-container,
+    .planos-container {
+        flex-direction: column;
+    }
+}
