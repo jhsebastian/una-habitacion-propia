@@ -1,0 +1,35 @@
+
+.texts-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descargables-container,
+.planos-container {
+    background-color: rgb(241, 241, 241);
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texts-container h2 {
+    color: purple;
+}
+
+.descargables-container img,
+.planos-container img {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.descargables-texts,
+.planos-texts{
+    width: 70%;
+}
