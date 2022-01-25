@@ -27,8 +27,19 @@ h1, h3 {
 }
 
 .list-names-container div {
-    padding: 30px
+    padding: 30px;
 }
+
+.list-names-container ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-names-container h3 {
+    text-align: center;
+ }
 
 @media only screen and (max-width: 991px) {
     .quienesSomos-principal-container {

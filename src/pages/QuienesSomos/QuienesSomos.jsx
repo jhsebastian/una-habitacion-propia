@@ -17,13 +17,7 @@ const QuienesSomos = () => {
                 <img className="image-quienesSomos img-fluid" src={equipo1} alt="" />
                 <div className="list-names-container">
                     <div>
-                        <h3>{data.subtitle1}</h3>
-                        <ul>
-                            {data.names.map((name) => <li>{name}</li> )}
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>{data.subtitle2}</h3>
+                        <h3 className="names-subititle">{data.subtitle2}</h3>
                         <ul>
                             {data.names2.map((names) => <li>{names}</li> )}
                         </ul>
